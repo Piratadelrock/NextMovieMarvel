@@ -63,9 +63,10 @@ curl_close($ch);
     </hgroup>
 
 
-    <h5S>
+
+    <hS>
         API UTILIZADA https://whenisthenextmcufilm.com/api
-    </h5S>
+    </hS>
 
     <pre>
         {
@@ -88,21 +89,21 @@ curl_close($ch);
         }
     </pre>
 </main>
-
 <style>
     :root {
         color-scheme: light dark;
-
     }
 
     body {
-        display: grid;
+        display: flex;
         place-content: center;
+
     }
 
     section {
         display: flex;
         justify-content: center;
+        align-items: center;
         text-align: center;
     }
 
@@ -115,5 +116,9 @@ curl_close($ch);
 
     img {
         margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 1rem;
     }
 </style>
